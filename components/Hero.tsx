@@ -6,17 +6,17 @@ import Link from 'next/link';
 
 const socials = [
     {
-        link: 'https://github.com/JellYouness',
+        link: 'https://github.com/rozam007',
         icon: <GitHub className="text-3xl" />
     },
     {
         link: 'https://www.linkedin.com/in/youness-jellouli/',
         icon: <LinkedIn className="text-3xl" />
     },
-    {
-        link: 'https://www.instagram.com/yns_jell/',
-        icon: <Instagram className="text-3xl" />
-    }
+    // {
+    //     link: 'https://www.instagram.com/yns_jell/',
+    //     icon: <Instagram className="text-3xl" />
+    // }
 ];
 
 const Hero = () => {
@@ -30,15 +30,13 @@ const Hero = () => {
         >
           {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)] dark:bg-black" /> */}
           <h1 className="text-xl font-bold">Hi, I am</h1>
-          <p className="text-5xl font-bold text-gradient text-center">Youness JELLOULI</p>
+          <p className="text-5xl font-bold text-gradient text-center">Rozam Tanveer</p>
           <TypeAnimation
             sequence={[
-              "FrontEnd Developer",
+              "MERN Stack Developer",
               1000,
-              "Freelancer",
-              1000,
-              "React/Next Developer",
-              1000,
+              "MERN Stack Developer",
+              1000
             ]}
             speed={50}
             repeat={Infinity}
@@ -55,7 +53,7 @@ const Hero = () => {
               </button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1vBqBwQrqt9TSy5VkVF9YkJH3P9WSoMtw/view?usp=sharing"
+              href="https://drive.google.com/file/d/13gijxaU1NjkwP7KBPZZ5Vz05-WutT11A/view?usp=drive_link"
               target="_blank"
             >
               <button className="btn-bordered">

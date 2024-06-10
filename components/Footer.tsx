@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <div className="container mx-auto py-4">
                 <p className="text-center text-sm">
-                    © 2024 <span className="text-primary-main">Youness JELLOULI</span>. All rights reserved.
+                    © 2024 <span className="text-primary-main">Rozam Tanveer</span>. All rights reserved.
                 </p>
             </div>
         </footer>

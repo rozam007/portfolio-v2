@@ -23,13 +23,13 @@ const NavBar = () => {
       <div className="flex items-center gap-3">
         <Image
           src={Logo}
-          alt="Jellouli Youness"
+          alt="Rozam Tanveer"
           quality={100}
           placeholder="blur"
           width={50}
           height={50}
         />
-        <p className="font-semibold text-xl">Youness JELLOULI</p>
+        <p className="font-semibold text-xl">Rozam Tanveer</p>
       </div>
       <div className="md:flex hidden justify-between items-center gap-8">
         {navElements.map((element, index) => (

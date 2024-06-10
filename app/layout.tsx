@@ -12,8 +12,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 const gabarito = Gabarito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Youness JELLOULI - Portfolio",
-  description: "Youness JELLOULI's portfolio",
+  title: "Rozam Tanveer - Portfolio",
+  description: "Rozam's Tanveer portfolio",
 };
 
 export default function RootLayout({

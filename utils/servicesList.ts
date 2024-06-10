@@ -34,6 +34,34 @@ export const services = [
     title: "React Js",
   },
   {
+    icon: js,
+    title: "Javascript",
+  },
+  {
+    icon: js,
+    title: "Node Js",
+  },
+  {
+    icon: js,
+    title: "Express Js",
+  },
+  {
+    icon: js,
+    title: "Mongo db",
+  },
+  {
+    icon: js,
+    title: "Nest Js",
+  },
+  {
+    icon: mysql,
+    title: "MySQL",
+  },
+  {
+    icon: mysql,
+    title: "Prisma",
+  },
+  {
     icon: tailwind,
     title: `TailwindCss`,
   },
@@ -50,20 +78,8 @@ export const services = [
     title: "Redux",
   },
   {
-    icon: laravel,
-    title: "Laravel",
-  },
-  {
-    icon: php,
-    title: "PHP",
-  },
-  {
-    icon: mysql,
-    title: "MySQL",
-  },
-  {
-    icon: js,
-    title: "Javascript",
+    icon: redux,
+    title: "React Queries",
   },
   {
     icon: html,
@@ -79,6 +95,10 @@ export const services = [
   },
   {
     icon: github,
+    title: "Git",
+  },
+  {
+    icon: github,
     title: "Github",
   },
   {
@@ -90,9 +110,18 @@ export const services = [
     title: "VS Code",
   },
   {
-    icon: vercel,
-    title: "Vercel",
+    icon: vscode,
+    title: "Postman",
   },
+  {
+    icon: vscode,
+    title: "Insomnia",
+  },
+  {
+    icon: vscode,
+    title: "Swagger",
+  },
+ 
 ];
 
 export const servicesSoon = [

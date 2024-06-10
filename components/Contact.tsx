@@ -7,7 +7,7 @@ import { z } from "zod";
 import {
   CheckCircleOutline,
   GitHub,
-  Instagram,
+  // Instagram,
   LinkedIn,
 } from "@mui/icons-material";
 import Link from "next/link";
@@ -22,10 +22,10 @@ const socials = [
     link: "https://www.linkedin.com/in/youness-jellouli/",
     icon: <LinkedIn className="text-3xl" />,
   },
-  {
-    link: "https://www.instagram.com/yns_jell/",
-    icon: <Instagram className="text-3xl" />,
-  },
+  // {
+  //   link: "https://www.instagram.com/yns_jell/",
+  //   icon: <Instagram className="text-3xl" />,
+  // },
 ];
 
 const formSchema = z.object({
@@ -92,12 +92,12 @@ const Contact = () => {
               first catch-up.
             </p>
             <h4 className="text-xl font-medium">Living In:</h4>
-            <p className="text-gray-500">Casablanca, MA.</p>
+            <p className="text-gray-500">Gujranwala, Pakistan</p>
             <h4 className="text-xl font-medium">Email:</h4>
-            <p className="text-gray-500">younessjellouli12@gmail.com</p>
+            <p className="text-gray-500">rozam0040@gmail.com</p>
             <h4 className="text-xl font-medium">Call:</h4>
-            <p className="text-gray-500">+212 627 594 239</p>
-            <div className="flex justify-between items-center gap-1 w-4/12 rounded-full  py-2">
+            <p className="text-gray-500">+92 320 7943 112</p>
+            <div className="flex flex-start items-center gap-1 w-4/12 rounded-full  py-2">
               {socials.map((social, index) => (
                 <Link
                   key={index}

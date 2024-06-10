@@ -30,19 +30,19 @@ const AboutMe = [
 const Info = [
     {
         title: 'Name:',
-        description: 'Youness JELLOULI'
+        description: 'Rozam Tanveer'
     },
     {
         title: 'Email:',
-        description: 'younessjellouli12@gmail.com'
+        description: 'rozam0040@gmail.com'
     },
     {
         title: 'Date of birth:',
-        description: '21 April 2002 (22 Years Old)'
+        description: '12 Sept 1997 (27 Years Old)'
     },
     {
         title: 'From:',
-        description: 'Casablanca, Morocco'
+        description: 'Gujranwala, Pakistan'
     }
 ];
 
@@ -71,7 +71,7 @@ const About = () => {
                         <Image
                             src={Photo}
                             className="w-52 h-52 rounded-full bg-primary-main border-4 border-gray-900 dark:border-white"
-                            alt="Youness Jellouli"
+                            alt="Rozam Tanveer"
                         />
                         <p className="text-xl font-bold text-primary-main border-b-2 border-primary-main ">Who's this guy?</p>
                         <p className="text-base md:text-lg w-full md:w-8/12 text-center">
